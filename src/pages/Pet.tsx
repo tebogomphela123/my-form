@@ -11,7 +11,7 @@ const Pet = () => {
 
       <form action="/veterinary/contact" method="post">
   
-        <div className="text-2xl text-black font-medium">Pet Owner Details</div>
+        <div className="text-2xl text-black font-medium">Pet Details</div>
 
         <label htmlFor="petName" className='comfortaa'>Pet's Name <span className="asteric text-red-600">&#42;</span></label>
         <input type="text" id="petName" name="petName" className='border border-gray-300 blocl my-2  py-2 px-4 w-full rounded focus:online-none focus:border-teal' minLength={2} placeholder="e.g Danger" required aria-required="true"/>
