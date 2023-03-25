@@ -53,7 +53,9 @@ const Pet = () => {
         <label htmlFor="message" className='comfortaa'>Message? <span className="asteric text-red-600">&#42;</span> </label>
         <textarea id="message" name="message" className='border border-gray-300 blocl my-2 py-2 px-4 w-full rounded focus:online-none focus:border-teal' placeholder='write your message here' rows={10} required></textarea>
 
-      
+        <button type='submit' className="bg-green-500 px-6 py-1.5 rounded-lg text-white hover:bg-blue-600">
+            Submit
+          </button>    
       </form>
   )
 
